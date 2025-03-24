@@ -282,3 +282,64 @@ footer .line_footer p a{
     text-decoration: none;
     margin-left: 5px;
 }
+
+@media screen and (max-width: 1020px) {
+
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo_do_site .flex{
+        flex-direction: column-reverse;
+    }
+
+    .menu_desktop, .btn_contato, .logo{
+        display: none;
+    }
+
+    .topo_do_site h1{
+        font-size: 23px;
+    }
+
+    section.topo_do_site{
+        padding: 20px 8%;
+    }
+
+    .topo_do_site .img_topo_site img{
+        width: 100%;
+    }
+
+    section .topo_do_site{
+        gap: 40px;
+    }
+
+
+    section .especialidades{
+        padding: 40px 8%;
+    }
+
+
+
+    section .sobre{
+        padding: 80px 8%;
+    }
+
+    .sobre .txt_sobre h2{
+        font-size: 36px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn_social{
+        text-align: center;
+    }
+
+    footer .flex{
+        flex-direction: column;
+    }
+}
