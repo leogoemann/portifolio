@@ -19,6 +19,16 @@ body{
     margin: 0 auto;
 }
 
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: rgb(223, 2, 223);
+}
+
 header{
     padding: 40px 4%;
 
@@ -104,4 +114,36 @@ section.topo_do_site .flex{
     100%{
         top:30px;
     }
+}
+
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades_box{
+    color: white;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.especialidades .especialidades_box:hover{
+    box-shadow: 0 0 20px rgb(189, 1, 189);
+    transform: scale(1.05);
+}
+
+.especialidades .especialidades_box i{
+    font-size: 70px;
+    color: rgb(223, 2, 223);
+}
+
+.especialidades .especialidades_box h3{
+    font-size: 28px;
+    margin: 15px 0;
 }
