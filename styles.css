@@ -5,6 +5,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: black;
     height: 100vh;
@@ -279,7 +283,6 @@ footer .line_footer p i{
 
 footer .line_footer p a{
     color: white;
-    text-decoration: none;
     margin-left: 5px;
 }
 
@@ -415,3 +418,5 @@ footer .line_footer p a{
         display: none;
     }
 }
+
+
