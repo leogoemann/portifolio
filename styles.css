@@ -1,3 +1,4 @@
+/* GERAL */
 *{
     margin: 0;
     padding: 0;
@@ -33,6 +34,8 @@ h2.titulo span{
     color: rgb(223, 2, 223);
 }
 
+/* HEADER */
+
 header{
     padding: 40px 4%;
 
@@ -48,6 +51,10 @@ header a{
     color: rgb(104, 104, 104);
     text-decoration: none;
     transition: .2s;
+}
+
+header img{
+    border-radius: 50%;
 }
 
 header nav.menu_desktop a:hover{
@@ -80,6 +87,8 @@ header nav.menu_desktop ul li{
     box-shadow: 0px 0px 8px rgb(189, 1, 189);
     transform: scale(1.05);
 }
+
+/* TOPO DO SITE */
 
 section.topo_do_site{
     padding: 40px 4%;
@@ -120,6 +129,7 @@ section.topo_do_site .flex{
     }
 }
 
+/* ESPECIALIDADES */
 
 section.especialidades{
     padding: 40px 4%;
@@ -135,6 +145,9 @@ section.especialidades .flex{
     margin-top: 45px;
     border-radius: 20px;
     transition: .2s;
+    height: 6cm;
+    width: 10cm;
+    text-align: center;
 }
 
 .especialidades .especialidades_box:hover{
@@ -152,6 +165,46 @@ section.especialidades .flex{
     margin: 15px 0;
 }
 
+
+
+/* LINGUAGENS */
+
+section .linguagens{
+    padding: 40px 4%;
+    justify-content: space-between;
+}
+
+section.linguagens .flex{
+    gap: 60px;
+}
+
+.linguagens .linguagens_box{
+    color: white;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+    height: 6cm;
+    width: 10cm;
+    text-align: center;
+}
+
+.linguagens .linguagens_box:hover{
+    box-shadow: 0 0 20px rgb(189, 1, 189);
+    transform: scale(1.05);
+}
+
+.linguagens .linguagens_box i{
+    font-size: 70px;
+    color: rgb(223, 2, 223);
+}
+
+.linguagens .linguagens_box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* SOBRE */
 
 section.sobre{
     padding: 80px 4%;    
@@ -182,6 +235,10 @@ section.sobre .flex{
     text-align: justify;
 }
 
+section.sobre .btn_social{
+    text-align: center;
+}
+
 .btn_social button{
     width: 60px;
     height: 60px;
@@ -200,6 +257,7 @@ section.sobre .flex{
 }
 
 
+/* FORMULARIO */
 
 .section .formulario{
     padding: 80px 4%;
@@ -232,7 +290,8 @@ form input::placeholder{
 
 form textarea{
     resize: none;
-    max-height: 200px;
+    max-height: 400px;
+    height: 200px;
 }
 
 form textarea::placeholder{
@@ -258,6 +317,8 @@ form .btn_enviar input:hover{
     box-shadow: 0 0 20px rgb(189, 1, 189);
     transform: scale(1.05);
 }
+
+/* FOOTER */
 
 footer{
     padding: 40px 4%;
@@ -285,6 +346,8 @@ footer .line_footer p a{
     color: white;
     margin-left: 5px;
 }
+
+/* RESPONSIVO */
 
 @media screen and (max-width: 1020px) {
 
