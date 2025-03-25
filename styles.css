@@ -389,7 +389,13 @@ footer .line_footer p a{
         padding: 40px 8%;
     }
 
+    .especialidades .especialidades_box{
+        width: 9.5cm;
+    }
 
+    .linguagens .linguagens_box{
+        width: 10.5cm;
+    }
 
     section .sobre{
         padding: 80px 8%;
@@ -408,6 +414,7 @@ footer .line_footer p a{
     footer .flex{
         flex-direction: column;
     }
+
 }
 
 /* ESTILO MENU MOBILE */
